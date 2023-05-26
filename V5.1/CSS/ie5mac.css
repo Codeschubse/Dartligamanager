@@ -1,0 +1,59 @@
+body {font: 12px Verdana, sans-serif; color: #000; background: #dff url(../Images/alt-bg.gif);}
+
+p  {font: 12px Verdana, sans-serif; color: #000;}
+h1 {font: bold 36px Times, serif; color: #006;}
+h2 {font: bold 24px Verdana, sans-serif; color: #000;}
+h3 {font: oblique 18px Verdana, sans-serif; color: #000;}
+h4 {font: bold 13px Verdana, sans-serif; color: #000;}
+h5 {font: 10px Georgia, serif; font-weight: bold; color: #000;}
+h6 {font: 9px Georgia, serif; color: #000;}
+
+th {border: hidden 0px; font: bold 13px Verdana, sans-serif; color: #000; background: #f90;}
+td {border: dotted #fc6 1px; font: 12px Verdana, sans-serif;}
+td.noborder {border: hidden 0px;}
+
+a:link          {font: bold 12px Verdana, sans-serif; color: #000;}
+a:hover         {font: bold 12px Verdana, sans-serif; color: #f00;}
+a:visited       {font: bold 12px Verdana, sans-serif; color: #000;}
+a:visited:hover {font: bold 12px Verdana, sans-serif; color: #f00;}
+
+div#header {text-align: right; font: oblique bold 16px times, serif; color: #006;
+            margin: 10px; padding: 3px;
+            background: #9cf; border: 3px solid #006;}
+div#header p.hide {display: none;}
+
+div#links {float: left; margin-left: 5px; margin-right: 10px; margin-bottom: 10px; padding: 3px;
+	       width: 150px; font: bold 12px Verdana, sans-serif; color: #9cf;
+           background: #006; border: 2px solid #9cf;}
+div#links ul.navi {list-style: none; margin: 0px; padding: 0px;}
+div#links ul.navi li a:link, ul.navi li a:visited {text-decoration: none; display: block; width: 88%;
+                                         padding-top: 0px; padding-right: 6%; padding-bottom: 0px; padding-left: 5px;
+                                         margin-top: 1px; font: bold 12px Verdana, sans-serif; color: #ff0;}
+div#links ul.navi li a:hover {text-decoration: underline; color: #f00;}
+
+div#links ul.sub {list-style: none; margin: 0px; padding: 0px;}
+div#links ul.sub li a:link, div#links ul.sub li a:visited {margin-top: 0;
+                                                       text-decoration: none; padding-left: 10px;
+                                                       font: bold 9px Verdana, sans-serif; color: #ff0;}
+div#links ul.sub li a:hover {margin-top: 0; text-decoration: underline; color: #f00;}
+
+div#rechts {float: right; margin-left: 10px; margin-right: 5px; margin-bottom: 10px; padding: 3px;
+            width: 160px; font: 10px Verdana, sans-serif; color: #9cf;
+            background: #006; border: 2px solid #9cf;}
+div#rechts a:link, div#rechts a:visited{font: bold 10px verdana, sans-serif; color: #ff0;}
+div#rechts a:hover {text-decoration: underline; color: #f00;}
+div#rechts hr {width: 80%; background-color: #006; height: 3px; border: 1px dotted #9cf;}
+
+div#rechts div.teaser {font: 12px Verdana, sans-serif; color: #000;
+                         background: #bb0; width: 100%;
+                         border: 2px solid #a11;}
+
+div#mitte {font: 12px Verdana, sans-serif; color: #000; padding: 3px;
+           margin-bottom: 10px; margin-top: 10px; margin-left: 180px; margin-right: 190px;
+           background: #ff9; border: 2px solid #f60;}
+
+div#footer {clear: both; margin: 10px; padding: 3px;
+            font: 10px Verdana, sans-serif; color: #9cf;
+            background: #006; border: 2px solid #9cf;}
+div#footer a:link, div#footer a:visited{font: bold 10px verdana, sans-serif; color: #ff0;}
+div#footer a:hover {text-decoration: underline; color: #f00;}

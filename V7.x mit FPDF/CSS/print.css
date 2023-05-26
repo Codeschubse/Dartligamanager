@@ -1,0 +1,16 @@
+div#header {height: 60px;}
+div#header h1 {text-align: center;}
+div#inhalt h2 {text-align: center;}
+div#header p.hide {display: none;}
+div.menu {display: none;}
+div#footer {display: none;}
+div#inhalt {font: 12pt serif;}
+.auswahl a {display: none;}
+.doNotPrint {display: none;}
+
+acronym:after, .titleTip:after {  /* Prints titles after the acronyms/titletips. Doesn't work in MSIE */
+	content: "(" attr(title) ")";
+	font-size: 90%;
+	font-style: normal;
+	padding-left: 1ex;
+	}

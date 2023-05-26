@@ -1,0 +1,76 @@
+body {margin: 0; padding: 0; font: 12px Verdana, sans-serif; color: #114;
+      background: black url(../Images/board-bg.jpg) 0 0 no-repeat fixed;}
+
+p  {font: 12px Verdana, sans-serif; color: #114;}
+h1 {font: bold 26px Times, serif; color: #114;}
+h2 {font: bold 24px Verdana, sans-serif; color: #114;}
+h3 {font: oblique 18px Verdana, sans-serif; color: #114;}
+h4 {font: bold 12px Verdana, sans-serif; color: #114;}
+h5 {font: 11px Georgia, serif; font-weight: bold; color: #114;}
+h6 {font: 11px Georgia, serif; color: #114;}
+
+th {border: hidden 0px; font: bold 12px Verdana, sans-serif; color: #500; background: #262;}
+td {border: dotted #262 1px; font: 12px Verdana, sans-serif;}
+td.noborder {border: hidden 0px;}
+
+a:link          {font: bold 12px Verdana, sans-serif; color: #141;}
+a:hover         {color: #811;}
+a:visited       {font: 12px Verdana, sans-serif; color: #141;}
+a:visited:hover {font: 12px Verdana, sans-serif; color: #811;}
+
+div#header {margin-top: 8px; margin-right: 100px; padding: 5px;
+            text-align: right; font: oblique bold 16px times, serif; color: #114;
+            background: #999 url(../Images/board-fg.jpg) 0 0 no-repeat fixed;}
+div#header p.hide {display: none;}
+
+div#links {float: left; padding: 0px; margin-right: 10px; margin-top: 20px;
+	       width: 160px; font: bold 9px Verdana, sans-serif; color: #fdd;}
+
+div#links ul.navi {list-style: none; margin: 0px; padding: 0px;}
+
+div#links ul.navi li a:link, ul.navi li a:visited
+{text-decoration: none; display: block; width: 88%;
+ padding-top: 0px; padding-right: 6%; padding-bottom: 0px; padding-left: 6%;
+ margin-top: 1px; font: bold 11px Verdana, sans-serif; color: #141;
+ background: #999 url(../Images/board-fg.jpg) 0 0 no-repeat fixed;}
+
+div#links ul.navi li a:hover {background: black url(../Images/board-bg.jpg) 0 0 no-repeat fixed; color: #f99;}
+
+div#links ul.sub {list-style: none; margin: 0px; padding: 0px;}
+
+div#links ul.sub li a:link, div#links ul.sub li a:visited
+{text-decoration: none; display: block; width: 78%; margin-left: 10%; margin-top: 0;
+ padding-right: 6%; padding-left: 6%;
+ font: bold 10px Verdana, sans-serif; color: #141;
+ background: #999 url(../Images/board-fg.jpg) 0 0 no-repeat fixed;}
+
+div#links ul.sub li a:hover {background: black url(../Images/board-bg.jpg) 0 0 no-repeat fixed; margin-left: 10%; margin-top: 0; color: #f99;}
+
+div#rechts {float: right; margin-left: 10px; margin-top: 20px; padding: 3px; width: 160px;
+            font: 10px Verdana, sans-serif; color: #999;
+            background: #000;}
+div#rechts a:link {font: bold 10px verdana, sans-serif;}
+div#rechts a:visited {font: 10px verdana, sans-serif;}
+div#rechts hr {width: 80%; background-color: #000; height: 3px; border: 1px dotted #999;}
+
+div#rechts div.teaser {font: 11px Verdana, sans-serif; color: #cc0;
+                         background: #000; width: 100%;
+                         border-top: 2px solid #a11;
+                         border-right: 0;
+                         border-bottom: 2px solid #a11;
+                         border-left: 2px solid #a11;}
+
+div#mitte {font: 12px Verdana, sans-serif; color: #114; padding: 8px;
+           margin-top: 20px; margin-left: 180px; margin-right: 180px;
+           background: #999 url(../Images/board-fg.jpg) 0 0 no-repeat fixed;}
+
+div#footer {clear: both; padding: 3px; margin-left: 100px; margin-bottom: 8px; margin-top: 20px;
+            text-align: left; font: 10px Verdana, sans-serif; color: #114;
+            background: #999 url(../Images/board-fg.jpg) 0 0 no-repeat fixed;}
+div#footer a:link, div#footer a:visited{font: bold 10px verdana, sans-serif; color: #141;}
+div#footer a:hover {text-decoration: underline; color: #811;}
+
+
+
+
+

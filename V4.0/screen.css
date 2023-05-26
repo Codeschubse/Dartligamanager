@@ -1,0 +1,22 @@
+p { font-family:Verdana, Arial, Helvetica, sans-serif; color: #000000; font-size:  xx-small}
+td { font-family:Verdana, Arial, Helvetica, sans-serif; color: #000000; font-size: xx-small}
+th { font-family:Verdana, Arial, Helvetica, sans-serif; color: #000000; font-weight: bold; font-size: xx-small}
+
+body { font-family: Verdana, Arial, Helvetica, sans-serif; color: #000000; font-size: xx-small; background: #fff url(Hintergrund.gif) fixed}
+
+.table { font-color: #9CF }
+
+a:active { text-decoration: underline; color: #000000; font-weight: bold}
+a:link { text-decoration: underline; color: #000000; font-weight: bold}
+a:visited { text-decoration: underline; color: #000000; font-weight: normal}
+a:hover { text-decoration: underline; color: #ffff66; font-weight: bold; background-color: #000000}
+
+.table a:active { text-decoration: underline; color: #FFFF66; font-weight: bold; background-color: #000066}
+.table a:link { text-decoration: underline; color: #FFFF66; font-weight: bold; background-color: #000066}
+.table a:visited { text-decoration: none; color: #FFFF66; font-weight: bold; background-color: #000066}
+.table a:hover { text-decoration: underline; color: #000066; font-weight: bold; background-color: #FFFF66}
+
+.skip a:active { text-decoration: underline; color: #000066; font-weight: bold; background-color: #000066}
+.skip a:link { text-decoration: underline; color: #000066; font-weight: bold; background-color: #000066}
+.skip a:visited { text-decoration: none; color: #000066; font-weight: bold; background-color: #000066}
+.skip a:hover { text-decoration: underline; color: #000066; font-weight: bold; background-color: #000066}

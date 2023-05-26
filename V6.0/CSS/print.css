@@ -1,0 +1,8 @@
+div#header {height: 60px;}
+div#header h1 {text-align: center;}
+div#header p.hide {display: none;}
+div#menu {display: none;}
+div#info {display: none;}
+div#footer {display: none;}
+body {font: 12px arial, sans-serif;}
+.auswahl a {display: none;}

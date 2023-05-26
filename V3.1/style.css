@@ -1,0 +1,75 @@
+body {
+	font-size:10pt;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	background-attachment: fixed;
+	background-image: url(http://root.hdlev.de/V3.1/Bilder/Hintergrund.gif)
+	}
+
+p {
+	font-size:10pt;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	}
+
+h1 {
+	font-size: 36pt;
+	font-style: oblique;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-variant: normal;
+	color: #000066;
+	}
+
+h5 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+	font-weight: lighter;
+	}
+	
+h6 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: xx-small;
+	font-weight: lighter;
+	}
+
+td {
+	font-size:10pt;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	}
+
+th {
+	font-size:12pt;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-variant: normal;
+	font-style: normal;
+	font-weight: bold;
+	color: #FF9933;
+	background-color: #000066;
+	}
+
+a:link {
+	text-decoration: underline;
+	color: #000099;
+	font-variant: small-caps;
+	font-weight: bold;
+	}
+
+a:active {
+	text-decoration: none;
+	color: #0099CC;
+	font-variant: small-caps;
+	font-weight: bold;
+	}
+
+a:visited {
+	text-decoration: underline;
+	color: #000000;
+	font-variant: small-caps;
+	font-weight: bold;
+	}
+
+a:hover {
+	text-decoration: underline;
+	color: #FF9933;
+	font-variant: small-caps;
+	font-weight: bold;
+	}

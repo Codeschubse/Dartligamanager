@@ -1,0 +1,1 @@
+<a href="http://www.hdlev.de">www.hdlev.de</a>&nbsp;&copy;&nbsp;2002-2005&nbsp;<a href="http://www.sehls.de">R&uuml;diger Sehls</a>, &copy;&nbsp;2005-<?php $jahr=date('Y'); echo $jahr;?>&nbsp;<a href="http://www.sehls.net">&lt;sehls.net /&gt;</a> au&szlig;er dem Navigationsmen&uuml; &copy;&nbsp;<a href="http://www.cssplay.co.uk">CSSplay</a>.

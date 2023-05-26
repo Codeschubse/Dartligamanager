@@ -1,0 +1,62 @@
+body {margin: 0; padding: 0; font: 1.0em Verdana, sans-serif; color: #000; background: #dff url(../Images/alt-bg.gif) fixed;}
+
+p  {font: 1.1em Verdana, sans-serif; color: #000;}
+h1 {font: bold 2.4em Times, serif; color: #006;}
+h2 {font: bold 2.0em Verdana, sans-serif; color: #000;}
+h3 {font: oblique 1.7em Verdana, sans-serif; color: #000;}
+h4 {font: bold 1.4em Verdana, sans-serif; color: #000;}
+h5 {font: 1.2em Georgia, serif; font-weight: bold; color: #000;}
+h6 {font: 1.2em Georgia, serif; color: #000;}
+
+th {border: hidden 0px; font: bold 1.1em Verdana, sans-serif; color: #000; background: #f90;}
+td {border: dotted #fc6 1px; font: 0.9em Verdana, sans-serif;}
+td.noborder {border: hidden 0px;}
+
+a:link          {font: bold 1.0em Verdana, sans-serif; color: #000;}
+a:hover         {font: bold 1.0em Verdana, sans-serif; color: #f00;}
+a:visited       {font: bold 1.0em Verdana, sans-serif; color: #000;}
+a:visited:hover {font: bold 1.0em Verdana, sans-serif; color: #f00;}
+
+div#header {text-align: right; font: oblique bold 0.7em times, serif; color: #006;
+            margin: 1%; padding: 0.1em;
+            background: #9cf; border: 0.2em solid #006;}
+div#header p.hide {display: none;}
+
+/* common styling */
+div#menu {position:relative; margin: 1%; margin-top: 2%; font-size:0.9em;}
+div#menu ul li a, .menu ul li a:visited {display:block; text-decoration: none; color:#000; width:145px; height:20px; text-align:center; color:#9cf; border:0.1em solid #006; background:#006; line-height:20px; font-size: 0.9em; overflow:hidden;}
+div#menu ul {padding:0; margin:0;list-style-type: none; }
+div#menu ul li {float:left; margin-right:2px; position:relative;}
+div#menu ul li ul {display: none;}
+
+/* specific to non IE browsers */
+div#menu ul li:hover a {color:#ff0; background:#006;}
+div#menu ul li:hover ul {display:block; position:absolute; top:21px; left:0; width:145px;}
+div#menu ul li:hover ul li a.hide {background:#006; color:#9cf;}
+div#menu ul li:hover ul li:hover a.hide {background:#006; color:#ff0;}
+div#menu ul li:hover ul li ul {display: none;}
+div#menu ul li:hover ul li a {display:block; background:#9cf; color:#006;}
+div#menu ul li:hover ul li a:hover {background:#006; color:#ff0;}
+div#menu ul li:hover ul li:hover ul {display:block; position:absolute; left:145px; top:0;}
+div#menu ul li:hover ul li:hover ul.left {left:-145px;}
+
+div#info {float: right; margin-top: 1%; margin-right: 1%; margin-bottom: 1%; padding: 0.5em;
+            width: 20%; font: 0.8em Verdana, sans-serif; color: #9cf;
+            background: #006; border: 0.15em solid #9cf;}
+div#info a:link, div#info a:visited{font: bold 0.9em verdana, sans-serif; color: #ff0;}
+div#info a:hover {text-decoration: underline; color: #f00;}
+div#info hr {width: 80%; background-color: #ff0; height: 3px; border: 1px solid #9cf;}
+
+div#info div.teaser {font: bold 1.1em Verdana, sans-serif; color: #ff0;
+                         background: #006; padding: 0.1em; margin: -0.1em;
+                         border: 0.2em solid #c33;}
+
+div#inhalt {font: 1.0em Verdana, sans-serif; color: #000; padding: 0.5em;
+            margin-bottom: 1%; margin-top: 6%; margin-left: 1%; margin-right: 25%;
+            background: #ff9; border: 0.2em solid #f60;}
+
+div#footer {clear: both; margin: 1%; padding: 0.5em;
+            font: 0.8em Verdana, sans-serif; color: #9cf;
+            background: #006; border: 0.1em solid #9cf;}
+div#footer a:link, div#footer a:visited{font: bold 1.0em verdana, sans-serif; color: #ff0;}
+div#footer a:hover {text-decoration: underline; color: #f00;}

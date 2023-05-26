@@ -1,0 +1,347 @@
+/* ================================================================ 
+This copyright notice must be untouched at all times.
+
+The original version of this stylesheet and the associated (x)html
+is available at http://www.cssplay.co.uk/menus/padding.html
+Copyright (c) 2005-2007 Stu Nicholls. All rights reserved.
+This stylesheet and the assocaited (x)html may be modified in any 
+way to fit your requirements.
+=================================================================== */
+/* style the outer div to give it width */
+.menu {font-size:0.85em; /* padding-bottom:200px; width:700px; */}
+
+/* remove all the bullets, borders and padding from the default list styling */
+.menu ul {padding:0;margin:0;list-style-type:none; height:3em; background:transparent;}
+
+/* style the sub-level lists */
+.menu ul ul {width:15em;}
+
+/* float the top list items to make it horizontal and a relative positon so that you can control the dropdown menu positon */
+.menu ul li {float:left;height:3em;line-height:3em; display:block;}
+
+/* style the sub level list items */
+.menu ul ul li {display:block;width:12em;height:auto; line-height:1em;}
+
+/* style the links for the top level */
+.menu a, .menu a:visited {display:block;float:left;height:100%; width:126px; font-size:1em;text-decoration:none;color:#fda;background:#226 url(../Images/top_grad.gif) center center; padding:0; text-align:center; border-left:1px solid #eee; border-right:1px solid #000; border-top:1px solid #eee; border-bottom:1px solid #000;}
+/* hack IE5.x to get the correct the faulty box model and get the width right */
+* html .menu a, * html .menu a:visited {width:11em; w\idth:7em;}
+
+/* style the sub level links */
+.menu ul ul a, .menu ul ul a:visited {display:block;background:#5b5b86 url(../Images/sub_grad.gif); color:#fda;width:12em;height:100%;line-height:1em; padding:0.5em 1em; border-bottom:1px solid #77a;}
+* html .menu ul ul a, * html .menu ul ul a:visited  {width:14em; w\idth:12em;}
+
+
+/* style the table so that it takes no part in the layout - required for IE to work */
+.menu table {border-collapse:collapse; padding:0; margin:-1px; width:0; height:0; font-size:1em; z-index:1;}
+
+
+/* style the third level background */
+.menu ul ul ul a, .menu ul ul ul a:visited {background:#9c9cbe url(../Images/sub_grad.gif);}
+/* style the fourth level background */
+.menu ul ul ul ul a, .menu ul ul ul ul a:visited {background:#acacc4 url(../Images/sub_grad.gif);}
+/* style the sub level 1 background */
+.menu ul :hover a.sub1 {background:#44447b;}
+/* style the sub level 2 background */
+.menu ul ul :hover a.sub2 {background:#44447b;}
+
+/* style the level hovers */
+/* first */
+* html .menu a:hover {color:#f90;background:#006 url(../Images/top_grad_2.gif) center center; position:relative; z-index:100;}
+.menu li:hover {position:relative;}
+.menu :hover > a {color:#f90;background:#006 url(../Images/top_grad_2.gif) center center;}
+/* second */
+* html .menu ul ul a:hover{color:#f90;background:#77a; position:relative; z-index:110;}
+.menu ul ul li:hover {position:relative;}
+.menu ul ul :hover > a {color:#f90;background:#77a;}
+/* third */
+* html .menu ul ul ul a:hover {background:#77a; position:relative; z-index:120;}
+.menu ul ul ul :hover > a {background:#77a;}
+/* fourth */
+.menu ul ul ul ul a:hover {background:#77a; position:relative; z-index:130;}
+
+
+/* hide the sub levels and give them a positon absolute so that they take up no room */
+.menu ul ul {visibility:hidden;position:absolute;height:0;top:3em; left:0; width:14em;}
+
+/* position the third level flyout menu */
+.menu ul ul ul{left:12em;top:0;width:14em;}
+
+
+/* make the second level visible when hover on first level list OR link */
+.menu ul :hover ul{visibility:visible; height:auto; padding:0 3em 3em 3em; background:transparent url(images/trans.gif); left:-3em;}
+/* keep the third level hidden when you hover on first level list OR link */
+.menu ul :hover ul ul{visibility:hidden;}
+/* keep the fourth level hidden when you hover on second level list OR link */
+.menu ul :hover ul :hover ul ul{visibility:hidden;}
+/* make the third level visible when you hover over second level list OR link */
+.menu ul :hover ul :hover ul{visibility:visible; left:9em;}
+/* make the fourth level visible when you hover over third level list OR link */
+.menu ul :hover ul :hover ul :hover ul {visibility:visible;}
+
+/* ======================================================================== */
+
+/* allgemein */
+body {
+	margin: 0;
+	padding: 0;
+	font: 85% georgia, serif;
+	color: #777;
+	background: #ddd;
+	background-image: url(../Images/bg.gif);
+	}
+
+p  {
+	font: 1.0em georgia, serif;
+	color: #777;
+	}
+
+h1 {
+	font: bold oblique 1.8em georgia, serif;
+	color: #006;
+	}
+
+h2 {
+	font: bold 1.8em georgia, serif;
+	color: #006;
+	text-align: center;
+	}
+
+h3 {
+	font: oblique 1.4em georgia, serif;
+	color: #000;
+	display: block;
+	border-bottom: 0.05em solid #000;
+	padding-bottom: 0.1em;
+	margin-bottom: 0.2em;
+	}
+
+h4 {
+	font: bold 1.0em georgia, serif;
+	color: #f90;
+	}
+
+h5 {
+	font: 1.0em georgia, serif;
+	font-weight: bold;
+	color: #ddd;
+	display: block;
+	background-color: #006;
+	text-align: center;
+	padding: 0.1em;
+	}
+
+h6 {
+	font: 0.9em georgia, serif;
+	font-weight: bold;
+	color: #006;
+	display: block;
+	background-color: #ddd;
+	text-align: center;
+	padding: 0.1em;
+	}
+
+hr {
+	width: 100%;
+	background-color: #000;
+	height: 0.15em;
+	border: 0px solid #000;
+	}
+
+hr.dark {
+	width: 100%;
+	background-color: #006;
+	height: 0.3em;
+	border: 0.05em solid #fff;
+	}
+
+hr.light {
+	width: 100%;
+	background-color: #ddd;
+	height: 0.3em;
+	border: 0.05em solid #fff;
+	}
+
+th {
+	border: hidden 0px;
+	font: 0.9em georgia, serif;
+	color: #006;
+	background: #ddd;
+	padding: 0.2em;
+	}
+
+td {
+	border: 0.1em solid #ddd;
+	font: 0.9em georgia, serif;
+	padding: 0.15em;
+	}
+
+td.noborder {
+	border: hidden 0px;
+	}
+
+acronym, .titleTip {
+	border-bottom: 0.1em dashed #666;
+	cursor: help;
+	margin: 0;
+	padding: 0 0 0.4px 0;
+	}
+
+acronym:hover, .titleTip:hover {
+	border-bottom: 0.1em solid #666;
+	}
+
+.doNotDisplay {
+	display: none;
+	}
+
+/* Gesamtbreite und zentrieren*/
+div#master {
+	margin: 0 auto;
+	width: 640px;
+	border: solid 1px #999;
+	background:#226 url(../Images/top_grad.gif);
+	}
+
+/* Warnung vor dem IE*/
+div#warnung {
+	background: #f00;
+	border: outset 3px #f00;
+	color: #fff;
+	font: oblique 0.9em georgia, serif;
+	padding: 0.8em;
+	}
+
+
+/* Header */
+div#header {
+	background: #fff;
+	height: 79px;
+	background-image: url(../Images/header_bg.gif);
+	border-bottom:1px solid #555;
+	overflow: hidden;
+	}
+
+/* Logo */
+div#logo {
+	float: left;
+	background: #fff;
+	padding: 9px 4px 10px 4px;
+	}
+
+/* Titel */
+div#title {
+	float: right;
+	text-align: right;
+	margin: 12px 8px 0 0;
+	}
+
+div#title p.hide {
+	display: none;
+	}
+
+/* Seiteninhalt */
+div#inhalt {
+	font: 1.0em georgia, serif;
+	color: #777;
+	padding: 10px;
+	background: #fff;
+	}
+
+div#inhalt a:link {
+	font: 1.0em georgia, serif;
+	color: #f90;
+	}
+
+div#inhalt a:hover {
+	font: 1.0em georgia, serif;
+	color: #222;
+	background-color: #ffb;
+	}
+
+div#inhalt a:visited {
+	font: 1.0em georgia, serif;
+	color: #006;
+	}
+
+div#inhalt a:visited:hover {
+	font: 1.0em georgia, serif;
+	color: #222;
+	background-color: #ffb;
+	}
+
+div#inhalt a.mailto:after {
+	content: url(../Images/email.gif);
+	padding-left: 3px;
+	}
+
+div#inhalt a.mehr:after {
+	content: url(../Images/drucker.gif);
+	padding-left: 4px;
+	}
+
+div#inhalt p.box {
+	display: block;
+	color: #006;
+	background-color: #fda;
+	border: 1px dashed #f90;
+	padding: 0.3em;
+	margin-left: 3.0em;
+	margin-right: 3.0em;
+	}
+
+div.teaser {
+	text-align: center;
+	color: #006;
+	background-color: #fda;
+	border: groove 5px #f90;
+	padding: 0.6em;
+	margin: 3em 0 1.2em 0;
+	}
+
+div.left {
+	margin: 0;
+	padding: 0;
+	float: left;
+	vertical-align: top;
+	width: 305px;
+	top: 0;
+	}
+
+div.center {
+	text-align: center;
+	margin: 0 auto;
+	}
+
+div.right {
+	margin: 0;
+	padding: 0;
+	float: right;
+	vertical-align: top;
+	width: 305px;
+	top: 0;
+	}
+
+div.clear {
+	clear: both;
+	height: 0px;
+	}
+
+/* Fusszeile */
+div#footer {
+	padding: 10px;
+	font: lighter 0.85em georgia, serif;
+	color: #ddd;
+	background: #333;
+	}
+
+div#footer a:link, div#footer a:visited{
+	font: 1.0em georgia, serif;
+	color: #f90;
+	}
+
+div#footer a:hover {
+	text-decoration: underline;
+	color: #222;
+	background-color: #ffb;
+	}
